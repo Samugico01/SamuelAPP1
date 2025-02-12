@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Raíz Única</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Raíz Única</h1>
+        <p>Ingresa los coeficientes A, B y C de la ecuación cuadrática:</p>
+        <form id="quadraticForm">
+            <label for="A">Coeficiente A:</label>
+            <input type="number" id="A" required>
+            <br>
+            <label for="B">Coeficiente B:</label>
+            <input type="number" id="B" required>
+            <br>
+            <label for="C">Coeficiente C:</label>
+            <input type="number" id="C" required>
+            <br>
+            <button type="submit">Calcular Raíz</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
